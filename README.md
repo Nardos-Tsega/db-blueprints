@@ -1,7 +1,7 @@
 # Database Design Journey
 
 ## Overview
-Welcome to my database design journey! This repository is a collection of case studies where I design database schemas for real-world platforms like LinkedIn, Facebook, and others. The goal is to document my learning process and share insights into the principles and best practices of database design.
+Welcome to my db blueprints! This repository is a collection of case studies where I design database schemas for real-world platforms like LinkedIn, Facebook, and others. The goal is to share my process and share insights into the principles and best practices of database design.
 
 ## Why This Repository Exists
 - **Learn by Doing**: Hands-on design of real-world systems to deepen my understanding of databases.
@@ -48,4 +48,5 @@ I welcome feedback, suggestions, and questions! Please open an issue or reach ou
 This project is licensed under the [MIT License](LICENSE).
 
 ## Author
-[Nardos](https://github.com/Nardos-Tsega)
+[Nardos](https://github.com/Nardos-Tsega) 
+[Connect with me on LinkedIn](https://www.linkedin.com/in/nard-tsegaye/)
