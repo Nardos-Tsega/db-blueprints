@@ -108,7 +108,7 @@ what about the data types? The data types for these columns will depend on your 
 Let's take a look at a couple of sample queries that the application may use to find information.
 
 
-##### 1. find details of your friends
+#### 1. find details of your friends
 
 lets assume id = 14 is current user's profile
 
@@ -124,7 +124,7 @@ INNER JOIN friendships f ON f.profile_accept = p.id
 WHERE f.profile_request = 14;
 ```
 
-##### 2. All comments on a post 
+#### 2. All comments on a post 
 
 lets assume id = 31 is a specific post
 
@@ -139,7 +139,7 @@ INNER JOIN post_comment c ON p.id = c.profile_id
 WHERE c.post_id = 31;
 ```
 
-##### 2. All of your text posts
+#### 2. All of your text posts
 
 lets assume id = 14 is current user's profile
 
