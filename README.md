@@ -1,4 +1,4 @@
-# Database Design Journey
+# Database Design Blueprints
 
 ## Overview
 Welcome to my db blueprints! This repository is a collection of case studies where I design database schemas for real-world platforms like LinkedIn, Facebook, and others. The goal is to share my process and share insights into the principles and best practices of database design.
@@ -26,12 +26,7 @@ db-blueprints/
 ```
 
 ## Current Projects
-### 1. LinkedIn Database Design
-- **Features**: User profiles, connections, job postings, messaging.
-- **Status**: In progress.
-- [Learn more](./linkedin-database-design/notes.md).
-
-### 2. Facebook Database Design
+### 1. Facebook Database Design
 - **Features**: User profiles, posts, likes, comments, friends.
 - **Status**: In progress.
 - [Learn more](./facebook-database-design/notes.md).
