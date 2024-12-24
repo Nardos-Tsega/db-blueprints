@@ -112,7 +112,8 @@ Let's take a look at a couple of sample queries that the application may use to 
 
 lets assume id = 14 is current user's profile
 
-```SELECT p.given_name, p.surname, p.country
+```
+SELECT p.given_name, p.surname, p.country
 FROM user_profile p
 INNER JOIN friendships f ON f.profile_request  = p.id
 WHERE f.profile_accept = 14
@@ -120,30 +121,35 @@ UNION
 SELECT p.given_name, p.surname, p.country
 FROM user_profile p
 INNER JOIN friendships f ON f.profile_accept = p.id
-WHERE f.profile_request = 14;```
+WHERE f.profile_request = 14;
+```
 
 ##### 2. All comments on a post 
 
 lets assume id = 31 is a specific post
 
-```SELECT 
+```
+SELECT 
 c.create_datetime,
 c.comment_text,
 p.given_name,
 p.surname,
 FROM user_profile p
 INNER JOIN post_comment c ON p.id = c.profile_id
-WHERE c.post_id = 31;```
+WHERE c.post_id = 31;
+```
 
 ##### 2. All of your text posts
 
 lets assume id = 14 is current user's profile
 
-```SELECT 
+```
+SELECT 
 c.created_datetime,
 c.comment_text
 FROM post_comment
-WHERE c.profile_id = 14;```
+WHERE c.profile_id = 14;
+```
 
 
 
