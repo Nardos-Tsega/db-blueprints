@@ -11,12 +11,10 @@ Welcome to my db blueprints! This repository is a collection of case studies whe
 ## Repository Structure
 ```
 db-blueprints/
-├── linkedin-database-design/      # LinkedIn case study
-│   ├── schema/                    # SQL scripts for tables
+├── airbnb-database-design/      # LinkedIn case study
 │   ├── diagrams/                  # ERD and other diagrams
 │   └── notes.md                   # Explanations and thought process
 ├── facebook-database-design/      # Facebook case study
-│   ├── schema/                    # SQL scripts for tables
 │   ├── diagrams/                  # ERD and other diagrams
 │   └── notes.md                   # Explanations and thought process
 └── general-notes/                 # General database design principles
@@ -28,8 +26,11 @@ db-blueprints/
 ## Current Projects
 ### 1. Facebook Database Design
 - **Features**: User profiles, posts, likes, comments, friends.
-- **Status**: In progress.
 - [Learn more](./facebook-database-design/notes.md).
+
+### 2. Stack Overfloew Database Design
+- **Features**: User profiles, Q&A, Forum.
+- [Learn more](./stoverflow-database-design/notes.md).
 
 ## How to Contribute
 - Fork this repository.
